@@ -96,7 +96,7 @@ class ViewController: UIViewController {
     @IBAction func calculateTip(_ sender: Any) {
         
     
-        let tipPercentages = [0.1, 0.2, 0.25]
+        let tipPercentages = [0.15, 0.2, 0.25]
         let bill = Double(billField.text!) ?? 0
         updateViewWithAnimation(_animated: true)
         setLastBill(bill: bill)
