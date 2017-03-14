@@ -12,10 +12,10 @@ The following functionality is complete:
 
 * [x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 * [x] Settings page to change the default tip percentage.
-* [ ] UI animations - Tip Value and Total amount are gray when bill amount is nil by setting alpha 0.2 and gets bold when bill amount is entered by setting alpha 1
-* [ ] Remembering the bill amount across app restarts (if <10mins)
-* [ ] Using locale-specific currency and currency thousands separators.
-* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+* [x] UI animations - Tip Value and Total amount fade in when bill amount changes from nil/zero to a value by changing alpha from 0.2 to 1
+* [x] Remembering the bill amount across app restarts (if <10mins)
+* [x] Using locale-specific currency and currency thousands separators.
+* [x] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 ## Video Walkthrough 
 
